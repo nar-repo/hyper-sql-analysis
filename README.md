@@ -37,10 +37,12 @@ It focuses on identifying and exploring patients diagnosed with hypertension, th
 
 
 ## Hypertension analysis Charts 
-- These charts provide a demographic summary and an overview of medications prescribed for hypertension.
+- These charts provide a demographic summary and an overview of top 10% of medications prescribed for hypertension.
 
 ![demographic summary](exports/demo_chart.png)
 ![medications](exports/top_10_meds.png)
+
+
 
 
 ### Cohort Definition
