@@ -40,7 +40,7 @@ It focuses on identifying and exploring patients diagnosed with hypertension, th
 - These charts provide a demographic summary and an overview of medications prescribed for hypertension.
 
 ![demographic summary](exports/demo_chart.png)
-![medications](exports/num_prescribed.png)
+![medications](exports/top 10 per med.png)
 
 
 ### Cohort Definition
@@ -50,4 +50,7 @@ CREATE TEMP TABLE hypertensive_patients AS
 SELECT DISTINCT "PATIENT"
 FROM conditions
 WHERE LOWER("DESCRIPTION") LIKE '%hypertension%';
+
+
+
 
