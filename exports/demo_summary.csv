@@ -1,0 +1,12 @@
+gender,race,patient_count
+F,white,119
+M,white,116
+M,black,16
+F,black,11
+F,asian,10
+M,asian,10
+F,other,3
+M,hawaiian,2
+F,hawaiian,2
+M,other,1
+M,native,1
