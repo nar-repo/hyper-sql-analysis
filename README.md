@@ -35,6 +35,14 @@ It focuses on identifying and exploring patients diagnosed with hypertension, th
 - Encounter analysis: analyzed the number and type of healthcare encounters (outpatient, emergency) for hypertensive patients.
 - Demographic summary: profiled hypertensive patients by age group, gender, and race.
 
+
+## Hypertension analysis Charts 
+- These charts provide a demographic summary and an overview of medications prescribed for hypertension.
+
+![demographic summary](exports/demo_chart.png)
+![medications](exports/num_prescribed.png)
+
+
 ### Cohort Definition
 - This cohort includes all unique patients who have a recorded condition where the description text contains the word "hypertension".
 ```sql
@@ -42,3 +50,4 @@ CREATE TEMP TABLE hypertensive_patients AS
 SELECT DISTINCT "PATIENT"
 FROM conditions
 WHERE LOWER("DESCRIPTION") LIKE '%hypertension%';
+
