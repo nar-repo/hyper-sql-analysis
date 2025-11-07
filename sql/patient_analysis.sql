@@ -53,7 +53,7 @@ BEGIN
     GROUP BY
         bpo."PATIENT";
 
-    --Medication costs over time (example with DATEPART + DATEADD + CURRENT_TIMESTAMP)
+    --medication costs over time (example with DATEPART + DATEADD + CURRENT_TIMESTAMP)
     --temporary table aggregates medication costs by year and month for hypertensive patients.
     DROP TABLE IF EXISTS med_cost_summary;
     CREATE TEMP TABLE med_cost_summary AS
